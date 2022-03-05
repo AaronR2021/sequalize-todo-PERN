@@ -62,7 +62,7 @@ const Todo = db.define('Todo', {//use db to create your table=> User is the tabl
         allowNull: false
     }
 },{
-    timestamps: true,
+    timestamps: false,
     freezeTableName:true,//duplicates table in changed later*
     underscored:true,            
 });
